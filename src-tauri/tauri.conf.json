@@ -46,11 +46,6 @@
   "bundle": {
     "active": true,
     "targets": "all",
-    "macos": {
-      "signingIdentity": "Developer ID Application",
-      "hardenedRuntime": true,
-      "entitlements": "./Entitlements.plist"
-    },
     "windows": {
       "wix": {
         "language": "zh-CN"
